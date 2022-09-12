@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/script.js" defer></script>
+    <script src="js/scriptt.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -12,17 +12,44 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/box.css" />
     <title>Lista zadań</title>
   </head>
   <body>
-    <form class="js-form">
-      <input class="js-newTask"/>
-      <button>Dodaj zadanie</button>
-    </form>
+    <main class="box">
+      <header class="box__header">
+        <h1 class="box__title">Lista zadań</h1>
+      </header>
 
-    <ul class="js-tasks">
-        
-    </ul>
+      <div class="box__addTask">
+        <h2 class="box__headerTitle">Dodaj nowe zadanie</h2>
+        <input
+          class="js-taskInput box__taskInput"
+          placeholder="Co jest do zrobienia?"
+        />
+        <button class="js-submitButton box__submitButton">Dodaj zadanie</button>
+      </div>
+      <div class="box__taskList">
+        <h2 class="box__headerTitle">Lista zadań</h2>
+
+        <ul class="js-tasks"></ul>
+      </div>
+    </main>
   </body>
 </html>
+
+<!-- <form class="js-form">
+    <input class="js-newTask"/>
+    <button>Dodaj zadanie</button>
+  </form>
+
+  <ul class="js-tasks">
+
+  </ul> -->

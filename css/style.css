@@ -7,6 +7,10 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora', sans-serif;
+    background-color: rgb(221, 223, 225);
 }
 
