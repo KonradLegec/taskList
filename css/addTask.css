@@ -1,0 +1,47 @@
+.addTask__main {
+    background-color: white;
+    box-shadow: 8px 8px 15px -9px rgba(66, 68, 90, 1);
+    padding: 5px;
+}
+
+.addTask__header {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(221, 223, 225);
+    max-width: 800px;
+    width: 100%;
+}
+
+.addTask__form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+@media (max-width: 450px) {
+    .addTask__form {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.addTask__input {
+    margin: 15px;
+    height: 35px;
+}
+
+.addTask__submit {
+    margin: 15px;
+    height: 35px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.addTask__submit:hover {
+    background-color: rgb(9, 153, 153);
+}
+
+.addTask__submit:active {
+    background-color: rgb(10, 207, 207);
+}

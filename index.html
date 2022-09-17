@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/scriptt.js" defer></script>
+    <meta property="og:image" content="images/share.png" />
+    <link rel="icon" href="images/icon.svg" />
+    <script src="js/script.js" defer></script>
+    <script src="js/buttons.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -20,26 +23,34 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/box.css" />
+    <link rel="stylesheet" href="css/addTask.css" />
+    <link rel="stylesheet" href="css/taskList.css" />
     <title>Lista zadań</title>
   </head>
+  
   <body>
     <main class="box">
       <header class="box__header">
         <h1 class="box__title">Lista zadań</h1>
       </header>
 
-      <div class="box__addTask">
-        <h2 class="box__headerTitle">Dodaj nowe zadanie</h2>
-        <input
-          class="js-taskInput box__taskInput"
-          placeholder="Co jest do zrobienia?"
-        />
-        <button class="js-submitButton box__submitButton">Dodaj zadanie</button>
+      <div class="addTask__main">
+        <h2 class="addTask__header">Dodaj nowe zadanie</h2>
+        <form class="addTask__form js-form">
+          <input
+            class="js-taskInput addTask__input"
+            placeholder="Co jest do zrobienia?"
+            autofocus
+          />
+          <button class="js-submitButton addTask__submit">
+            Dodaj zadanie
+          </button>
+        </form>
       </div>
-      <div class="box__taskList">
-        <h2 class="box__headerTitle">Lista zadań</h2>
+      <div class="taskList__main">
+        <h2 class="taskList__header">Lista zadań</h2>
 
-        <ul class="js-tasks"></ul>
+        <ul class="js-tasks taskList__list"></ul>
       </div>
     </main>
   </body>
