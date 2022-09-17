@@ -44,9 +44,11 @@
     color: white;
     font-size: 20px;
 }
+
 .taskList__toggleButton:hover {
     background-color: rgb(24, 174, 10);
 }
+
 .taskList__toggleButton:active {
     background-color: rgb(17, 199, 0);
 }
@@ -59,11 +61,11 @@
     color: white;
     font-size: 25px;
 }
+
 .taskList__removeButton:hover {
     background-color: rgb(242, 0, 0);
 }
+
 .taskList__removeButton {
     background-color: rgb(236, 54, 54);
 }
-
-

@@ -30,7 +30,9 @@
             <button class = "js-done taskList__toggleButton">
             ${task.done ? "✔" : ""}
             </button>
-            <span class=${task.done ? "taskList__contentDone" : "taskList__content"}>
+            <span class=${
+              task.done ? "taskList__contentDone" : "taskList__content"
+            }>
             ${task.content}</span>
             <button class = "js-remove taskList__removeButton">🗑</button>
         </li>
@@ -40,7 +42,6 @@
     document.querySelector(".js-tasks").innerHTML = htmlString;
 
     bindEvents();
-    
   };
 
   // "onFormSubmit" blokuje wysłanie formularza, pobiera z inputa wartość nowego zadania i pozbawia ją białych znaków oraz sprawdza czy nie jest pusta. Następnie zostaje wywołana funkcja "addNewTask" ze stałą "newTaskContent"
@@ -86,5 +87,5 @@
   const clearInputField = () => {
     let inputText = document.querySelector("js-input");
     inputText.value = "";
-  }
+  };
 }
