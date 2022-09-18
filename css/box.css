@@ -1,7 +1,7 @@
 .box {
     display: flex;
     flex-direction: column;
-    flex-basis: 800px;
+    flex-basis: 1000px;
     min-height: 350px;
     height: 100%;
     margin: 20px;
@@ -16,7 +16,7 @@
 .box__title {
     display: flex;
     width: 100%;
-    background-color: rgb(221, 223, 225);
+    background-color: rgb(233, 239, 245);
     margin: 0;
     padding: 15px 0;
 }

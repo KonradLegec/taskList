@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Sora', sans-serif;
-    background-color: rgb(221, 223, 225);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 239, 245);
+    word-break: break-word;
 }
