@@ -7,7 +7,6 @@
     <meta property="og:image" content="images/share.png" />
     <link rel="icon" href="images/icon.svg" />
     <script src="js/script.js" defer></script>
-    <script src="js/buttons.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -50,7 +49,11 @@
         </form>
       </div>
       <div class="taskList__main">
-        <h2 class="taskList__header"><p>Lista zadań</p><p class="taskList__button">Przycisk Przycisk</p></h2>
+        <div class="taskList__topSection">
+          <h2 class="taskList__header"><p>Lista zadań</p></h2>
+          <p class="taskList__buttons js-managementButtons"></p>
+        </div>
+        
 
         <ul class="js-tasks taskList__list"></ul>
       </div>
