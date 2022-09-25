@@ -5,11 +5,13 @@
 }
 
 .taskList__header {
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 20px;
     font-size: 20px;
     border-bottom: 2px solid rgb(221, 223, 225);
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -43,6 +45,7 @@
     background-color: rgb(23, 162, 10);
     color: white;
     font-size: 20px;
+    transition: 0.5s;
 }
 
 .taskList__toggleButton:hover {
@@ -60,6 +63,7 @@
     background-color: rgb(229, 8, 8);
     color: white;
     font-size: 25px;
+    transition: 0.5s;
 }
 
 .taskList__removeButton:hover {
@@ -69,3 +73,4 @@
 .taskList__removeButton {
     background-color: rgb(236, 54, 54);
 }
+
