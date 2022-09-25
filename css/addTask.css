@@ -39,7 +39,8 @@
     color: white;
     border: none;
     font-size: 14px;
-    transition: 1s
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .addTask__submit:hover {

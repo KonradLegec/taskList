@@ -66,6 +66,7 @@
     color: white;
     font-size: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .taskList__toggleButton:hover {
@@ -84,6 +85,7 @@
     color: white;
     font-size: 25px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .taskList__removeButton:hover {
