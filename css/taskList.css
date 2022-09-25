@@ -4,15 +4,33 @@
     box-shadow: 1px 1px 3px -1px rgba(168, 168, 190, 1);
 }
 
+.taskList__topSection {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(221, 223, 225);
+    height: fit-content;
+}
+@media (max-width: 550px) {
+    .taskList__topSection {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 .taskList__header {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 20px;
+    padding-left: 20px;
     font-size: 20px;
-    border-bottom: 2px solid rgb(221, 223, 225);
+    min-width: 160px;
     max-width: 1000px;
     width: 100%;
+}
+@media (max-width: 360px) {
+    .taskList__header {
+        justify-content: center;
+    }
 }
 
 .taskList__list {
@@ -72,5 +90,49 @@
 
 .taskList__removeButton {
     background-color: rgb(236, 54, 54);
+}
+
+.taskList__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+@media (max-width: 360px) {
+    .taskList__buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+}
+
+
+.taskList__button {
+    background: none;
+	color: teal;
+	border: none;
+    width: 165px;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.taskList__button:hover {
+    transform: translate(1px, -1px);
+    scale: 1.01;
+}
+
+
+.taskList__button:disabled {
+    color: rgb(130, 125, 125);
+}
+
+.taskList__item--hidden {
+    display: none;
 }
 
