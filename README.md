@@ -21,7 +21,7 @@ There are several improvements released with revision 1.1:
 
 The interface is kept in simple and clean design, there is basic background, simple and intuitive color convention and high readability.
 
-![img](http://foto-hosting.pl/img/9f/dd/b6/9fddb6f07c95a5522d9c15d96db2109f3fe0e03f.jpeg)
+![img](http://foto-hosting.pl/img/e6/f9/45/e6f94565ed0e283bc0dde4d70dcac6c6f7125484.jpeg)
 
 ## Demo
 https://konradlegec.github.io/taskList/
