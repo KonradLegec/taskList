@@ -123,8 +123,7 @@
 
 
 .taskList__button:hover {
-    transform: translate(1px, -1px);
-    scale: 1.01;
+    color: rgb(20, 195, 195);
 }
 
 
