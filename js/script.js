@@ -52,7 +52,11 @@
     let htmlString = "";
     for (const task of tasks) {
       htmlString += `
-        <li class="${task.done && hideShowTasks ? " taskList__item--hidden" : "taskList__item"}">
+        <li class="${
+          task.done && hideShowTasks
+            ? " taskList__item--hidden"
+            : "taskList__item"
+        }">
             <button class = "js-done taskList__toggleButton">
             ${task.done ? "✔" : ""}
             </button>

@@ -10,6 +10,7 @@
     border-bottom: 2px solid rgb(221, 223, 225);
     height: fit-content;
 }
+
 @media (max-width: 550px) {
     .taskList__topSection {
         display: grid;
@@ -27,6 +28,7 @@
     max-width: 1000px;
     width: 100%;
 }
+
 @media (max-width: 360px) {
     .taskList__header {
         justify-content: center;
@@ -98,6 +100,7 @@
     align-items: center;
     height: auto;
 }
+
 @media (max-width: 360px) {
     .taskList__buttons {
         display: grid;
@@ -109,13 +112,13 @@
 
 .taskList__button {
     background: none;
-	color: teal;
-	border: none;
+    color: teal;
+    border: none;
     width: 165px;
-	padding: 10px;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     transition: 0.5s;
     margin-left: auto;
     margin-right: auto;
@@ -134,4 +137,3 @@
 .taskList__item--hidden {
     display: none;
 }
-

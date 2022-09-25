@@ -1,7 +1,7 @@
 .addTask__main {
     background-color: white;
     box-shadow: 1px 1px 3px -1px rgba(168, 168, 190, 1);
-    
+
 }
 
 .addTask__header {
@@ -45,7 +45,7 @@
 .addTask__submit:hover {
     background-color: rgb(9, 153, 153);
     scale: 1.1;
-    
+
 }
 
 .addTask__submit:active {
